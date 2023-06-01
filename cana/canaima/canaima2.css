@@ -1,0 +1,563 @@
+
+/* modal de la canaima numero 1*/
+.mola{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.mola--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.mola__container{
+    margin: auto;
+    width: 1000vh;
+    height: 100vh;
+    background-color: #523e3e;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+   
+}
+
+.mola__title{
+    font-size: 2.5rem;
+}
+
+.mola__paragraph{
+    margin-bottom: 10px;
+}
+
+.mola__img{
+    width: 400px;
+    max-width: 900px;
+}
+
+.mola__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.mola__close:hover{
+    color: #F26250;
+    background-color: #fff;
+}
+
+
+
+/* modal de la canaima numero 2*/
+.moral{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.moral--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.moral__container{
+    margin: auto;
+    width: 1000vh;
+    height: 100vh;
+    background-color: #523e3e;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.moral__title{
+    font-size: 2.5rem;
+}
+
+.moral__paragraph{
+    margin-bottom: 10px;
+}
+
+.moral__img{
+    width: 400px;
+    max-width: 900px;
+}
+
+.moral__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.moral__close:hover{
+    color: #F26250;
+    background-color: #fff;
+}
+
+
+/* modal de la canaima numero 3 */
+
+.mora{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.mora--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.mora__container{
+    margin: auto;
+    width: 1000vh;
+    height: 100vh;
+    background-color: #523e3e;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.mora__title{
+    font-size: 2.5rem;
+}
+
+.mora__paragraph{
+    margin-bottom: 10px;
+}
+
+.mora__img{
+    width: 400px;
+    max-width: 900px;
+}
+
+.mora__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.mora__close:hover{
+    color: #F26250;
+    background-color: #fff;
+}
+
+
+
+/* modal de la canaima numero 4 */
+
+.mor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.mor--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.mor__container{
+    margin: auto;
+    width: 1000vh;
+    height: 100vh;
+    background-color: #523e3e;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.mor__title{
+    font-size: 2.5rem;
+}
+
+.mor__paragraph{
+    margin-bottom: 10px;
+}
+
+.mor__img{
+    width: 400px;
+    max-width: 900px;
+}
+
+.mor__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.mor__close:hover{
+    color: #F26250;
+    background-color: #fff;
+}
+
+/* modal de la canaima numero 5 */
+
+.mo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.mo--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.mo__container{
+    margin: auto;
+    width: 1000vh;
+    height: 100vh;
+    background-color: #523e3e;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.mo__title{
+    font-size: 2.5rem;
+}
+
+.mo__paragraph{
+    margin-bottom: 10px;
+}
+
+.mo__img{
+    width: 400px;
+    max-width: 900px;
+}
+
+.mo__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.mo__close:hover{
+    color: #F26250;
+    background-color: #fff;
+}
+
+
+/* modal de la canaima docente */
+
+.docente{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.docente--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.docente__container{
+    margin: auto;
+    width: 1000vh;
+    height: 100vh;
+    background-color: #523e3e;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.docente__title{
+    font-size: 2.5rem;
+}
+
+.docente__paragraph{
+    margin-bottom: 10px;
+}
+
+.docente__img{
+    width: 400px;
+    max-width: 900px;
+}
+
+.docente__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.docente__close:hover{
+    color: #F26250;
+    background-color: #fff;
+}
+
+/* modal de la table 1 */
+
+.docent{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.docent--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.docent__container{
+    margin: auto;
+    width: 1000vh;
+    height: 100vh;
+    background-color: #523e3e;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.docent__title{
+    font-size: 2.5rem;
+}
+
+.docent__paragraph{
+    margin-bottom: 10px;
+}
+
+.docent__img{
+    width: 400px;
+    max-width: 900px;
+}
+
+.docent__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.docent__close:hover{
+    color: #F26250;
+    background-color: #fff;
+}
+
+/* modal de la table 2 */
+
+.docen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.docen--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.docen__container{
+    margin: auto;
+    width: 1000vh;
+    height: 100vh;
+    background-color: #523e3e;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.docen__title{
+    font-size: 2.5rem;
+}
+
+.docen__paragraph{
+    margin-bottom: 10px;
+}
+
+.docen__img{
+    width: 400px;
+    max-width: 900px;
+}
+
+.docen__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.docen__close:hover{
+    color: #F26250;
+    background-color: #fff;
+}
